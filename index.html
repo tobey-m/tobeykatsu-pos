@@ -26,7 +26,7 @@ h1,h2,b,strong,button{letter-spacing:normal}
 .mobile-nav{display:none}
 @media(max-width:650px){
   .mobile-nav{position:fixed;z-index:6;left:0;right:0;bottom:0;grid-template-columns:repeat(5,minmax(0,1fr));gap:2px;padding:7px 6px calc(7px + env(safe-area-inset-bottom));background:#fffdfa;border-top:1px solid var(--line);box-shadow:0 -6px 24px #38271712}
-  .mobile-nav button{min-width:0;border:0;background:transparent;color:var(--muted);border-radius:10px;padding:5px 2px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font:500 10px/1.25 inherit}
+  .mobile-nav button{min-width:0;border:0;background:transparent;color:var(--muted);border-radius:10px;padding:5px 2px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-family:inherit;font-size:10px;font-weight:500;line-height:1.25}
   .mobile-nav button.active{background:var(--soft);color:var(--orange)}
   .mobile-nav .ico{width:auto;font-size:16px;line-height:1.2}
 }
